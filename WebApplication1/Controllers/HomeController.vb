@@ -6,7 +6,7 @@
     End Function
 
     Function About() As ActionResult
-        ViewData("Message") = "Your application description page."
+        ViewData("Message") = "So turns out if debug mode is on I can't edit stuff, what a surprise, you dunce."
 
         Return View()
     End Function
